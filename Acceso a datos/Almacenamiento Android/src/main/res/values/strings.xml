@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Almacenamiento</string>
+    <string name="guardar">GUARDAR DATOS</string>
+    <string name="nombre">Nombre</string>
+    <string name="usuario">Usuario</string>
+    <string name="fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="sexo">Sexo</string>
+    <string name="mostrar">MOSTRAR DATOS</string>
+</resources>

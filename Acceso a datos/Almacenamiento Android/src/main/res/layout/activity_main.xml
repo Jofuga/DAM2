@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#ceeaf5"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Et_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:contentDescription="@string/nombre"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nombre" />
+
+    <EditText
+        android:id="@+id/Et_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:contentDescription="@string/usuario"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/usuario" />
+
+    <EditText
+        android:id="@+id/Et_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:contentDescription="@string/fecha_nacimiento"
+        android:ems="10"
+        android:inputType="date"
+        android:text="@string/fecha_nacimiento" />
+
+    <EditText
+        android:id="@+id/Et_sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:contentDescription="@string/sexo"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/sexo" />
+
+    <Button
+        android:id="@+id/Button_guardar"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="204dp"
+        android:text="@string/guardar" />
+
+    <Button
+        android:id="@+id/Button_mostrar"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="129dp"
+        android:text="@string/mostrar" />
+
+
+</RelativeLayout>
